@@ -7,6 +7,8 @@ public class Main {
         if(winStatus.equals("tie")){
             System.out.println("The Game is Tie!");
         }
-        System.out.println("The winner is " + winStatus);
+        else {
+            System.out.println("The winner is " + winStatus);
+        }
     }
 }

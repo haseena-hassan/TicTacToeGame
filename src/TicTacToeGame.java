@@ -67,7 +67,7 @@ public class TicTacToeGame {
                 return currentPlayer.name;
             }
         }
-        return "Tie";
+        return "tie";
     }
 
     boolean isPlayerWinner(int row, int col, PieceType piece) {

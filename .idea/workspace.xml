@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7012ee-aab0-4827-bd7d-f4a7f36beab0" name="Changes" comment="">
+    <list default="true" id="8f7012ee-aab0-4827-bd7d-f4a7f36beab0" name="Changes" comment="added checking for winner logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToeGame.java" afterDir="false" />
     </list>
@@ -24,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "haseena-hassan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/haseena-hassan/TicTacToeGame.git",
+    "accountId": "662cd436-2fe9-4e77-8999-dc4ba3a0e65a"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -55,6 +67,15 @@
       <option name="presentableId" value="Default" />
       <updated>1714462527282</updated>
     </task>
+    <task id="LOCAL-00001" summary="added checking for winner logic">
+      <option name="closed" value="true" />
+      <created>1714548070913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714548070913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added checking for winner logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="added checking for winner logic" />
   </component>
 </project>
