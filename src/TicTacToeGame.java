@@ -71,7 +71,44 @@ public class TicTacToeGame {
     }
 
     boolean isPlayerWinner(int row, int col, PieceType piece) {
-        return false;
+        boolean rowCheck = true;
+        boolean colCheck = true;
+        boolean diagonalCheck = true;
+        boolean antiDiagonalCheck = true;
+
+        // Check row for any match
+        for(int i=0; i<gameBoard.size; i++) {
+            if(gameBoard.board[row][i] == null || gameBoard.board[row][i].piecetype != piece) {
+                rowCheck = false;
+                break;
+            }
+        }
+
+        // Check column for any match
+        for(int i=0; i<gameBoard.size; i++) {
+            if(gameBoard.board[i][col] == null || gameBoard.board[i][col].piecetype != piece) {
+                colCheck = false;
+                break;
+            }
+        }
+
+        // Check diagonal for any match
+        for(int i=0, j=0; i<gameBoard.size; i++, j++) {
+            if(gameBoard.board[i][j] == null || gameBoard.board[i][j].piecetype != piece) {
+                diagonalCheck = false;
+                break;
+            }
+        }
+
+        // Check row for any match
+        for(int i=0, j=gameBoard.size-1; i<gameBoard.size; i++, j--) {
+            if(gameBoard.board[i][j] == null || gameBoard.board[i][j].piecetype != piece) {
+                antiDiagonalCheck = false;
+                break;
+            }
+        }
+
+        return rowCheck || colCheck || diagonalCheck || antiDiagonalCheck ;
     }
 }
 
